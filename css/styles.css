@@ -1,0 +1,189 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../img/bg-img-dnd.jpg);
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+div h1{
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 55px;
+    color: rgb(204, 195, 187);
+    text-decoration-line: underline;
+    text-align: center;
+    margin: 10px;
+}
+
+section div label{
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 195, 187);
+    font-size: 30px;
+}
+
+section div input{
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    border: 4px solid black;
+    text-align: center;
+}
+
+.blur{
+    backdrop-filter: blur(100px);
+}
+
+.border-h1{
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 15px;
+}
+
+.titulo-nuevo{
+    font-family: "Oldenburg", serif;
+    border: 5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    margin: 15px;
+    backdrop-filter: blur(100px);
+    font-size: 75px;
+    text-decoration: none;
+    color: rgb(204, 195, 187);
+    text-align: center;
+}
+
+.resultado-bonito{
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 195, 187);
+    font-size: 50px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+
+.input-tirar{
+    width: 180px;
+    height: 75px;
+    font-size: 20px;
+    font-family: "Oldenburg", serif;
+}
+
+.inputlimpiar{
+    width: 100px;
+    height: 50px;
+    font-size: 5px;
+    font-family: "Oldenburg", serif;
+}
+
+.button-tirada-borrar{
+    font-family: "Oldenburg", serif;
+}
+
+.resultado-anterior{
+    font-family: "MedievalSharp", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(204, 195, 187);
+    font-size: 40px;
+    text-align: center;
+    backdrop-filter: blur(3px);
+}
+/*GRID TITULO*/
+.grid-container-1{
+    display: grid;
+    grid-template-columns: repeat(25, 0.5fr);
+    grid-template-rows: 1fr;
+    height: 20vh;
+}
+.grid-item-1{
+    grid-column-start: 4;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    justify-self: center;
+    align-self: center;
+}
+/*GRID INPUTS*/
+.grid-container-2{
+    display: grid;
+    grid-template-columns: repeat(25, 0.5fr);
+    grid-template-rows: repeat(25, 0.5fr);
+    height: 50vh;
+}
+.grid-item-2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-3{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-5{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-6{
+    grid-row-start: 10;
+    grid-row-end: 12;
+    grid-column-start: 4;
+    grid-column-end: 12;
+    justify-self: center;
+    align-self: center;
+}
+.grid-item-7{
+    grid-row-start: 12;
+    grid-row-end: 13;
+    grid-column-start: 6;
+    grid-column-end: 10;
+    justify-self: center;
+    align-self: center;
+}
+/*GRID HISTORIAL y BORRAR*/
+.grid-item-8{
+    grid-column-start: 18;
+    grid-column-end: 20;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-item-9{
+    grid-column-start: 21;
+    grid-column-end: 22;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.grid-item-10{
+    grid-column-start: 18;
+    grid-column-end: 23;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+
